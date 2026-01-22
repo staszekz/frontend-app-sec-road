@@ -6,12 +6,19 @@
 **Pace:** 2–4 hours/week (realistic, long-term)  
 **Location:** Chapel Hill, NC (Research Triangle tech / cyber market)
 
+## Current Status (as of January 2026)
+Phase 0: In progress – Browser & HTTP fundamentals  
+Next milestone: First PortSwigger XSS labs + system prevention notes
+
 ## 🎯 Long-term Goal
+Scope: frontend-led systems (browser, BFF, auth flows, integration layer).
+Not aiming to become a backend or pure AppSec engineer.
+
 Become a **Senior / Staff Frontend Engineer** who:  
 - designs **secure frontend architectures**, not just components  
 - understands **browser + HTTP + trust boundaries deeply**  
 - makes **conscious trade-offs** (security vs performance vs DX)  
-- uses AI for **code review, refactoring and validation**, not as a crutch  
+- uses AI for **code review, refactoring and validation**, not as a crutch
 
 This is **not a learning repo**.  
 This is a **decision-making and architecture repo**.
@@ -45,6 +52,12 @@ Focus:
 
 Goal: Understand what the browser guarantees — and what it does not.
 
+Output:
+- short write-up per vulnerability
+- one architectural rule derived from each lab
+- one “never do this again” guideline
+
+
 ### Phase 1 — Client-Side Security Fundamentals (Feb–Apr 2026)
 Hands-on vulnerabilities with **system-level prevention mindset**.  
 Main resource: https://portswigger.net/web-security  
@@ -76,6 +89,7 @@ Topics:
 Goal: Move from “fixing vulnerabilities” to “designing systems that prevent them”.
 
 ### Phase 3 — AI as Engineering Tool (Aug–Oct 2026)
+AI is used after human design decisions are made, not before.
 No “prompt engineering”. AI is integrated into daily engineering workflow.  
 Use cases: security-focused code review, architecture critique, refactoring validation  
 
@@ -102,7 +116,7 @@ Each project README explains: what decision was made, why, alternatives consider
 - `/projects`      → real apps (e.g. Secure Lofi Player) with architecture decisions & trade-offs  
 - `/prompts`       → custom AI templates (master prompt, review templates, etc.)  
 - `/notes`         → architecture sketches, threat models, HTTP/browser deep-dive summaries  
-- `/roadmap`       → this README + future updates (monthly progress logs)
+- `/meta`       → this README + future updates 
 
 Feel free to follow, fork or suggest resources – happy to connect with other learners/devs in RTP area!  
 🔒💻🎧
